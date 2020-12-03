@@ -1,0 +1,31 @@
+<%- include("partials/header"); -%>
+
+<body>
+  <div class="box">
+    <div class="wave -one"></div>
+    <div class="wave -two"></div>
+    <div class="wave -three"></div>
+
+
+    <div class="weathercon">
+
+
+      <h2 class="location"><%= cityNameInfo %>, <%= countryNameInfo %>  </h2>
+      <p class="date"><%= dateTimeInfo %></p>
+    </div>
+
+
+
+    <div class="info">
+        <h1 class="temp"> <%= tempInfo %>&deg;C</h1>
+        <p class="description"> <img src= "<%= iconURLInfo %>"> <%= descriptionInfo %></p>
+        <h2 class="minmaxtemp"> <%= minTempInfo %>&deg;C / <%= maxTempInfo %>&deg;C </h1>
+
+        <span class="other-city"><a href="/">  Want Information for other Location?</a></span>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>

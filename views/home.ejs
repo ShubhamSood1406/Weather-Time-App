@@ -1,0 +1,30 @@
+<%- include("partials/header"); -%>
+
+<body>
+  <div class="box">
+    <div class="wave -one"></div>
+    <div class="wave -two"></div>
+    <div class="wave -three"></div>
+
+    <div class="main-h1-1" > Weather</div>
+    <div class="main-h1-2"> App</div>
+
+    <div class="info">
+       <form action="/info" method="post">
+         <div class= "city-enter-tab">
+            <input class="tb1" id="cityInput" type="text" name="cityName" placeholder="Enter your City" autocomplete="off">
+      </div>
+        <div class= "submit-tab">
+              <button class="tb2" type="submit" name="button"> Get weather </button>
+        </div>
+
+
+        </form>
+    </div>
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>
