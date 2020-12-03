@@ -1,3 +1,6 @@
+<b> About </b>
+<br>
+
 <b>Heroku hosted link to this web-app</b> https://salty-dusk-00780.herokuapp.com/
 
 <b>Snapshot of the web-app </b>
